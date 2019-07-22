@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<string name="register_password_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>-->
+    <!--<string name="confirm">确定</string>-->
+
+    <!--<string name="net_work_set_title">没有可用的网络</string>-->
+    <!--<string name="net_work_set_message">是否对网络进行设置</string>-->
+    <!--<string name="net_work_set_yes">是</string>-->
+    <!--<string name="net_work_set_no">否</string>-->
+
+    <!--<string name="last_update">最后更新:&#160;&#160;</string>-->
+    <!--<string name="just_now">刚刚</string>-->
+    <!--<string name="minute_ago">%1$s分钟前</string>-->
+    <!--<string name="pull_to_refresh_footer_loading">正在加载...</string>-->
+    <!--<string name="pull_to_refresh_footer_show_all">没有更多信息了~</string>-->
+    <!--<string name="no_content">没有内容</string>-->
+
+    <!--<string name="progress_dialog_message">正在加载,请稍候...</string>-->
+    <!--<string name="please_wait">请稍候...</string>-->
+
+    <!--<string name="no_app_to_open">没有对应的软件可以打开！</string>-->
+
+    <!--<string name="add_success">增加成功！</string>-->
+    <!--<string name="delete_success">删除成功！</string>-->
+    <!--<string name="edit_success">修改成功！</string>-->
+    <!--<string name="query_success">查询成功！</string>-->
+    <!--<string name="add_fail">增加失败！</string>-->
+    <!--<string name="delete_fail">删除失败！</string>-->
+    <!--<string name="edit_fail">修改失败！</string>-->
+    <!--<string name="query_fail">查询失败！</string>-->
+
+    <!--<string name="request_fail">请求失败！</string>-->
+    <!--<string name="cant_connect_to_server">无法连接到服务器或连接超时！</string>-->
+
+    <!--<string name="exit_app_toast">再次点击退出程序！</string>-->
+    <!--<string name="there_is_no_network">没有网络连接！</string>-->
+
+    <!--<string name="load_error">请检查网络或稍后重试！</string>-->
+    <!--<string name="network_error">网络异常</string>-->
+
+</resources>

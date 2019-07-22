@@ -1,0 +1,45 @@
+apply plugin: 'com.android.library'
+
+android {
+//    apiSdkVersion rootProject.ext.apiSdkVersion as Integer
+    compileSdkVersion rootProject.ext.compileSdkVersion as Integer
+    buildToolsVersion rootProject.ext.buildToolsVersion as String
+
+    packagingOptions {
+        pickFirst 'META-INF/*'
+    }
+
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion as Integer
+        targetSdkVersion rootProject.ext.targetSdkVersion as Integer
+        multiDexEnabled true//防止出现65536问题，。。value 2
+    }
+}
+
+
+
+dependencies {
+    api "com.android.support:support-v4:${rootProject.supportLibsVersion}"
+    api "com.android.support:support-v13:${rootProject.supportLibsVersion}"
+    api "com.android.support:appcompat-v7:${rootProject.supportLibsVersion}"
+    api "com.android.support:support-v4:${rootProject.supportLibsVersion}"
+    api "com.android.support:recyclerview-v7:${rootProject.supportLibsVersion}"
+    api "com.android.support:design:${rootProject.supportLibsVersion}"
+    api "com.android.support:cardview-v7:${rootProject.supportLibsVersion}"
+    api 'com.google.code.gson:gson:2.4'
+    api 'com.github.chrisbanes.photoview:library:1.2.4'
+    api 'com.yalantis:ucrop:2.2.0'
+
+    api 'io.reactivex.rxjava2:rxjava:2.1.7'
+    api 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    api 'com.lzy.net:okgo:3.0.1'
+    api 'com.lzy.net:okrx2:2.0.1'
+    api 'com.lzy.net:okserver:2.0.1'
+    api 'com.github.aakira:expandable-layout:1.6.0@aar'
+    api 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    api 'androidx.viewpager:viewpager:1.0.0'
+    api project(':common')
+    api project(':ptr-lib')
+    api project(':umenganalytics')
+}

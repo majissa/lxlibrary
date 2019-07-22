@@ -1,0 +1,28 @@
+<resources>
+    <!--Android 系统默认字体 Rotobo,限定使用以下字号 -->
+    <dimen name="text_size_12">12sp</dimen><!--补充性内容-->
+    <dimen name="text_size_14">14sp</dimen><!--次级正文-->
+    <dimen name="text_size_18">18sp</dimen><!--正文-->
+    <dimen name="text_size_22">22sp</dimen><!--标题-->
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_6">6sp</dimen>
+    <dimen name="text_size_7">7sp</dimen>
+    <dimen name="text_size_8">9sp</dimen>
+
+    <dimen name="top_height">45dp</dimen><!--全局头部高度-->
+    <dimen name="line_thickness">0.5dp</dimen><!--线厚度-->
+    <dimen name="number_operations_heigh">35dp</dimen>
+    <dimen name="number_operations_width">37dp</dimen>
+    <dimen name="add_heigh">35dp</dimen><!--线厚度-->
+
+    <dimen name="one_dp">1dp</dimen>
+
+    <dimen name="five_dp">5dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="fifteen_dp">15dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="twenty_five_dp">25dp</dimen>
+    <dimen name="thirty_dp">30dp</dimen>
+    <dimen name="fourth_four_dp">44dp</dimen>
+    <dimen name="dimens_100_dp">150dp</dimen>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="register_name_digits" translatable="false">._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="register_password_digits" translatable="false">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="confirm" translatable="false">确定</string>
+
+    <string name="net_work_set_title" translatable="false">没有可用的网络</string>
+    <string name="net_work_set_message" translatable="false">是否对网络进行设置</string>
+    <string name="net_work_set_yes" translatable="false">是</string>
+    <string name="net_work_set_no" translatable="false">否</string>
+
+    <string name="last_update" translatable="false">最后更新:&#160;&#160;</string>
+    <string name="just_now" translatable="false">刚刚</string>
+    <string name="minute_ago" translatable="false">%1$s分钟前</string>
+    <string name="pull_to_refresh_footer_loading" translatable="false">正在加载...</string>
+    <string name="pull_to_refresh_footer_show_all" translatable="false">没有更多信息了~</string>
+    <string name="no_content" translatable="false">没有内容</string>
+
+    <string name="progress_dialog_message" translatable="false">正在加载,请稍候...</string>
+    <string name="please_wait" translatable="false">请稍候...</string>
+
+    <string name="no_app_to_open" translatable="false">没有对应的软件可以打开！</string>
+
+    <string name="add_success" translatable="false">增加成功！</string>
+    <string name="delete_success" translatable="false">删除成功！</string>
+    <string name="edit_success" translatable="false">修改成功！</string>
+    <string name="query_success" translatable="false">查询成功！</string>
+    <string name="add_fail" translatable="false">增加失败！</string>
+    <string name="delete_fail" translatable="false">删除失败！</string>
+    <string name="edit_fail" translatable="false">修改失败！</string>
+    <string name="query_fail" translatable="false">查询失败！</string>
+
+    <string name="request_fail" translatable="false">请求失败！</string>
+    <string name="cant_connect_to_server" translatable="false">无法连接到服务器或连接超时！</string>
+
+    <string name="exit_app_toast" translatable="false">再次点击退出程序！</string>
+    <string name="there_is_no_network" translatable="false">没有网络连接！</string>
+
+    <string name="load_error" translatable="false">请检查网络或稍后重试！</string>
+    <string name="network_error" translatable="false">网络异常</string>
+</resources>
